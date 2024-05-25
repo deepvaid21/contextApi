@@ -12,7 +12,7 @@ function Signup() {
     }
   return (
     <div>
-      <h2>signup</h2>
+      
       <input type="text" value={Username} onChange={(e)=>{setUsername(e.target.value)}} placeholder='username' />
       <input type="text" value={Password} onChange={(e)=>{setPassword(e.target.value)}}placeholder='password' />
       <button onClick={handlesubmitted}>submitted</button>
